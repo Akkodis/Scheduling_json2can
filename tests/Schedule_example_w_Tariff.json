@@ -1,0 +1,71 @@
+{
+  "SAScheduleList": {
+    "SAScheduleTuple": [{
+      "SAScheduleTupleID": 1,
+      "PMaxSchedule": {
+        "PMaxScheduleEntry": [
+          {
+            "RelativeTimeInterval": {
+              "start": 0
+            },
+            "PMax": {
+              "Multiplier": 3,
+              "Unit": "W",
+              "Value": 100
+            }
+          },
+          {
+            "RelativeTimeInterval": {
+              "start": 120
+            },
+            "PMax": {
+              "Multiplier": 3,
+              "Unit": "W",
+              "Value": 0
+            }
+          },
+          {
+            "RelativeTimeInterval": {
+              "start": 240,
+              "duration": 86400
+            },
+            "PMax": {
+              "Multiplier": 3,
+              "Unit": "W",
+              "Value": 100
+            }
+          }
+        ]
+      },
+      "SalesTariff": {
+        "SalesTariffID": 1,
+        "SalesTariffEntry": [
+          {
+            "RelativeTimeInterval": {
+              "start": 0
+            },
+            "EPriceLevel": 1
+          },
+          {
+            "RelativeTimeInterval": {
+              "start": 1800
+            },
+            "EPriceLevel": 4
+          },
+          {
+            "RelativeTimeInterval": {
+              "start": 3600
+            },
+            "EPriceLevel": 2
+          },
+          {
+            "RelativeTimeInterval": {
+              "start": 5400
+            },
+            "EPriceLevel": 3
+          }
+        ]
+      }
+    }]
+  }
+}

@@ -1,0 +1,79 @@
+{
+    "SAScheduleList":{
+        "SAScheduleTuple": [{
+            "SAScheduleTupleID":67,
+            "PMaxSchedule":{
+                "PMaxScheduleEntry":[{
+                    "RelativeTimeInterval": {
+                        "start":0,
+                        "duration":36000
+                    },
+                    "PMax":{
+                        "Multiplier":0,
+                        "Unit":"W",
+                        "Value":9600
+                    }
+                }]
+            },
+            "SalesTariff":{
+                "Id":"ID001",
+                "SalesTariffID":45,
+                "SalesTariffDescription":"Standard",
+                "NumEPriceLevels":1,
+                "SalesTariffEntry": [
+                    {
+                        "RelativeTimeInterval":{
+                            "start":0,
+                            "duration":36000
+                        },
+                        "EPriceLevel":1,
+                        "ConsumptionCost": [
+                            {
+                                "startValue": {
+                                    "Multiplier":0,
+                                    "Unit":"W",
+                                    "Value":0
+                                },
+                                "Cost":[
+                                    {
+                                        "costKind":"relativePricePercentage",
+                                        "amount":90,
+                                        "amountMultiplier":0
+                                    }
+                                ]
+                            },
+                            {
+                                "startValue": {
+                                    "Multiplier":0,
+                                    "Unit":"W",
+                                    "Value":10000
+                                },
+                                "Cost": [
+                                    {
+                                        "costKind":"relativePricePercentage",
+                                        "amount":95,
+                                        "amountMultiplier":0
+                                    }
+                                ]
+                            },
+                            {
+                                "startValue":{
+                                    "Multiplier":0,
+                                    "Unit":"W",
+                                    "Value":20000
+                                },
+                                "Cost":[
+                                    {
+                                        "costKind":"relativePricePercentage",
+                                        "amount":100,
+                                        "amountMultiplier":0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }]
+    }
+ }

@@ -1,0 +1,42 @@
+{
+  "SAScheduleList": {
+    "SAScheduleTuple": [{
+      "SAScheduleTupleID": 1,
+      "PMaxSchedule": {
+        "PMaxScheduleEntry": [
+          {
+            "RelativeTimeInterval": {
+              "start": 0
+            },
+            "PMax": {
+              "Multiplier": 3,
+              "Unit": "W",
+              "Value": 100
+            }
+          },
+          {
+            "RelativeTimeInterval": {
+              "start": 120
+            },
+            "PMax": {
+              "Multiplier": 3,
+              "Unit": "W",
+              "Value": 0
+            }
+          },
+          {
+            "RelativeTimeInterval": {
+              "start": 240,
+              "duration": 86400
+            },
+            "PMax": {
+              "Multiplier": 3,
+              "Unit": "W",
+              "Value": 100
+            }
+          }
+        ]
+      }
+    }]
+  }
+}

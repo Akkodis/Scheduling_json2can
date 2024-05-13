@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<v2gci_d:V2G_Message xmlns:v2gci_h="urn:iso:15118:2:2013:MsgHeader"
+xmlns:v2gci_d="urn:iso:15118:2:2013:MsgDef"
+xmlns:v2gci_t="urn:iso:15118:2:2013:MsgDataTypes"
+xmlns:xmlsig="http://www.w3.org/2000/09/xmldsig#"
+xmlns:v2gci_b="urn:iso:15118:2:2013:MsgBody"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<v2gci_d:Header>
+ <v2gci_h:SessionID>3031323334353637</v2gci_h:SessionID>
+</v2gci_d:Header>
+<v2gci_d:Body>
+ <v2gci_b:ChargeParameterDiscoveryRes>
+ <v2gci_b:ResponseCode>OK</v2gci_b:ResponseCode>
+ <v2gci_b:EVSEProcessing>Finished</v2gci_b:EVSEProcessing>
+ <v2gci_t:SAScheduleList>
+ <v2gci_t:SAScheduleTuple>
+ <v2gci_t:SAScheduleTupleID>55</v2gci_t:SAScheduleTupleID>
+ <v2gci_t:PMaxSchedule>
+ <v2gci_t:PMaxScheduleEntry>
+ <v2gci_t:RelativeTimeInterval>
+ <v2gci_t:start>0</v2gci_t:start>
+ <v2gci_t:duration>3600</v2gci_t:duration>
+ </v2gci_t:RelativeTimeInterval>
+ <v2gci_t:PMax>
+ <v2gci_t:Multiplier>0</v2gci_t:Multiplier>
+ <v2gci_t:Unit>W</v2gci_t:Unit>
+ <v2gci_t:Value>22000</v2gci_t:Value>
+ </v2gci_t:PMax>
+ </v2gci_t:PMaxScheduleEntry>
+ </v2gci_t:PMaxSchedule>
+<v2gci_t:SalesTariff v2gci_t:Id="ID001">
+ <!-- used by XML Signature Framework for signature assignment in msg header -->
+ <v2gci_t:SalesTariffID>67</v2gci_t:SalesTariffID>
+ <v2gci_t:SalesTariffDescription>SalesTariffDescription1</v2gci_t:SalesTariffDescription>
+ <v2gci_t:NumEPriceLevels>2</v2gci_t:NumEPriceLevels>
+ <v2gci_t:SalesTariffEntry>
+ B55EB1B3C7662F79D1B59483A53B9F2F82C98BEEB79394AF4CF15C8CEDD838BA28DB410486F44598D08B6DBC600EE698CE32C3A846A32F02E07A6B9E3CE17E96626DEEEE177E48E04A2E1D0C0DBC2777F0BA6437B2BCBF9FED7568E3
+Normen-Download-Beuth-GIGATRONIK Holding GmbH-KdNr.7717733-LfNr.6974200001-2015-03-06 09:07
+ISO 15118-2:2014(E) 
+© ISO 2014 – All rights reserved 289
+ <v2gci_t:RelativeTimeInterval>
+ <v2gci_t:start>0</v2gci_t:start>
+ <v2gci_t:duration>3600</v2gci_t:duration>
+ </v2gci_t:RelativeTimeInterval>
+ <v2gci_t:EPriceLevel>1</v2gci_t:EPriceLevel>
+ </v2gci_t:SalesTariffEntry>
+ </v2gci_t:SalesTariff>
+ </v2gci_t:SAScheduleTuple>
+ <v2gci_t:SAScheduleTuple>
+ <v2gci_t:SAScheduleTupleID>56</v2gci_t:SAScheduleTupleID>
+ <v2gci_t:PMaxSchedule>
+ <v2gci_t:PMaxScheduleEntry>
+ <v2gci_t:RelativeTimeInterval>
+ <v2gci_t:start>0</v2gci_t:start>
+ <v2gci_t:duration>3600</v2gci_t:duration>
+ </v2gci_t:RelativeTimeInterval>
+ <v2gci_t:PMax>
+ <v2gci_t:Multiplier>0</v2gci_t:Multiplier>
+ <v2gci_t:Unit>V</v2gci_t:Unit>
+ <v2gci_t:Value>11000</v2gci_t:Value>
+ </v2gci_t:PMax>
+ </v2gci_t:PMaxScheduleEntry>
+ </v2gci_t:PMaxSchedule>
+<v2gci_t:SalesTariff v2gci_t:Id="ID002">
+ <!-- used by XML Signature Framework for signature assignment in msg header -->
+ <v2gci_t:SalesTariffID>68</v2gci_t:SalesTariffID>
+ <v2gci_t:SalesTariffDescription>SalesTariffDescription2</v2gci_t:SalesTariffDescription>
+ <v2gci_t:NumEPriceLevels>2</v2gci_t:NumEPriceLevels>
+ <v2gci_t:SalesTariffEntry>
+ <v2gci_t:RelativeTimeInterval>
+ <v2gci_t:start>0</v2gci_t:start>
+ <v2gci_t:duration>3600</v2gci_t:duration>
+ </v2gci_t:RelativeTimeInterval>
+ <v2gci_t:EPriceLevel>2</v2gci_t:EPriceLevel>
+ </v2gci_t:SalesTariffEntry>
+ </v2gci_t:SalesTariff>
+ </v2gci_t:SAScheduleTuple>
+ </v2gci_t:SAScheduleList>
+ <v2gci_t:AC_EVSEChargeParameter>
+ <v2gci_t:AC_EVSEStatus>
+ <v2gci_t:NotificationMaxDelay>0</v2gci_t:NotificationMaxDelay>
+ <v2gci_t:EVSENotification>None</v2gci_t:EVSENotification>
+ <v2gci_t:RCD>false</v2gci_t:RCD>
+ </v2gci_t:AC_EVSEStatus>
+ <v2gci_t:EVSENominalVoltage>
+ <v2gci_t:Multiplier>0</v2gci_t:Multiplier>
+ <v2gci_t:Unit>V</v2gci_t:Unit>
+ <v2gci_t:Value>230</v2gci_t:Value>
+ </v2gci_t:EVSENominalVoltage>
+ <v2gci_t:EVSEMaxCurrent>
+ <v2gci_t:Multiplier>0</v2gci_t:Multiplier>
+ <v2gci_t:Unit>A</v2gci_t:Unit>
+ <v2gci_t:Value>50</v2gci_t:Value>
+ </v2gci_t:EVSEMaxCurrent>
+ </v2gci_t:AC_EVSEChargeParameter>
+ </v2gci_b:ChargeParameterDiscoveryRes>
+</v2gci_d:Body>
+</v2gci_d:V2G_Message>
